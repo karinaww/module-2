@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Elements</title>
+</head>
+<body>
+<h2>Задание 1: Создание простой формы</h2>
+<fieldset>
+    <legend>Поле для ввода имени</legend>
+        <form action="/submit" method="post">
+        <label for="name">Введите ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+        </form>
+</fieldset>
+    
+    <br>
+
+<fieldset>
+    <legend>Поле для ввода электронной почты</legend>
+        <form action="/submit" method="post">
+        <label for="email">Введите ваш email:</label>
+        <input type="email" id="email" name="email" required>
+        </form>
+</fieldset>
+
+    <br>
+
+<fieldset>
+    <legend>Поле для ввода пароля</legend>
+        <form action="/submit" method="post">
+        <label for="password">Введите ваш пароль:</label>
+        <input type="password" id="password" name="password" required>
+        </form>
+</fieldset>
+
+    <br>
+
+<fieldset>
+    <legend>Текстовое поле для комментариев</legend>
+       <label for="message">Ваш комментарий:</label>
+       <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+       <button type="submit">Отправить</button>
+</fieldset>
+   
+<h2>Задание 2: Поля выбора и кнопки</h2>
+<fieldset>
+    <legend>Выпадающий список с кнопкой сброса и отправки формы</legend>
+       <label for="country">Выберите страну</label>
+       <select id="country" name="country" required>
+        <option value="AU">Австралия</option>
+        <option value="BY">Беларусь</option>
+        <option value="KZ">Казахстан</option>
+        <option value="MX">Мексика</option>
+        <option value="GB">Великобритания</option>
+        <option value="PL">Польша</option>
+        <option value="TH">Таиланд</option>
+        <option value="CH">Швейцария</option>
+        <option value="FR">Франция</option>
+        <option value="IT">Италия</option>
+        <option value="ES">Испания</option>
+        <option value="CN">Китай</option>
+        <option value="CH">Швейцария</option>
+        <option value="CA">Канада</option>
+        <option value="JP">Япония</option>
+        </select>
+    <button type="submit">Отправить</button>
+    <button type="reset">Сбросить</button>
+</fieldset>
+
+</body>
+</html>
