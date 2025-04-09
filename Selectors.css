@@ -1,0 +1,24 @@
+#header {
+    color: black;
+    text-align: center;
+ }
+
+ #number2 {
+    text-align: center;
+    background-color: rgba(207, 164, 204, 0.425);
+
+ }
+
+ p {
+    font-size: 20px;
+ }
+ 
+ #number3 {
+    font-size: 20px;
+    background-color: rgba(207, 164, 204, 0.425);
+ }
+
+ .num1 {
+    padding: 8px;
+ }
+ 
